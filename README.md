@@ -16,7 +16,7 @@
 #Weather Data Analysis:
 #####Return all Historical Records
 **URL**
-http://52.11.3.221:8080/RestWebService/rest/weather/historical/  
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/  
 **Method:**
 GET  
 **URL Params**
@@ -34,7 +34,7 @@ Content: [
    ]  
 #####Return Weather Record for a given date
 **URL**  
-http://52.11.3.221:8080/RestWebService/rest/weather/historical/:date  
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/:date  
 **Method:**  
 GET  
 **URL Params**  
@@ -52,7 +52,7 @@ Code: HTTP/1.1 404 Not Found
 
 #####Create a new weather record  
 **URL**  
-http://52.11.3.221:8080/RestWebService/rest/weather/historical/  
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/  
 **Method:**  
 POST  
 **URL Params**  
@@ -70,7 +70,7 @@ Content: {"date":"20130101"}
 
 #####Delete Weather Record for given date  
 **URL**  
-http://52.11.3.221:8080/RestWebService/rest/weather/historical/:date  
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/:date  
 **Method:**  
 DELETE  
 **URL Params**  
@@ -84,7 +84,7 @@ Code: HTTP/1.1 404 Error - Record Not Found
 
 ##### Return future 7 predicted records for a given date  
 **URL**  
-http://52.11.3.221:8080/RestWebService/rest/weather/forecast/:date  
+http://34.210.24.117:8080/RestWebService/rest/weather/forecast/:date  
 **Method:**  
 GET  
 **URL Params**  
@@ -132,11 +132,11 @@ Content: [
 
 #Final URL's after the deployment
 ## Return all Historical Records
-http://50.112.32.181:8080/RestWebService/rest/weather/historical/
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/
 ## Return Weather Record for a given date
-http://50.112.32.181:8080/RestWebService/rest/weather/historical/20130102
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/20130102
 ## Create a new weather record
-http://50.112.32.181:8080/RestWebService/rest/weather/historical/
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/
 #####Raw Input
 {
    "date": "20190110",
@@ -144,6 +144,6 @@ http://50.112.32.181:8080/RestWebService/rest/weather/historical/
    "tmin": 35.5
 }
 ## Delete Weather Record for given date
-http://50.112.32.181:8080/RestWebService/rest/weather/historical/20190101
+http://34.210.24.117:8080/RestWebService/rest/weather/historical/20190101
 ## Return future 7 predicted records for a given date
-http://50.112.32.181:8080/RestWebService/rest/weather/forecast/20190103
+http://34.210.24.117:8080/RestWebService/rest/weather/forecast/20190103
