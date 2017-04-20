@@ -146,4 +146,4 @@ http://34.210.24.117:8080/RestWebService/rest/weather/historical/
 ## Delete Weather Record for given date
 http://34.210.24.117:8080/RestWebService/rest/weather/historical/20190101
 ## Return future 7 predicted records for a given date
-http://34.210.24.117:8080/RestWebService/rest/weather/forecast/20190103
+http://34.210.24.117:8080/RestWebService/rest/weather/forecast/20130102
